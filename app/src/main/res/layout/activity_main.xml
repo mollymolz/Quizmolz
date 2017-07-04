@@ -4,18 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#123454"
     tools:context="com.example.codetribe.quiz.MainActivity">
 
 
+    <Button
+        android:id="@+id/btnPolitic"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="POLITICS"
+        android:layout_marginBottom="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btntravel"
+        android:layout_alignStart="@+id/btntravel" />
+
+    <Button
+        android:id="@+id/btntravel"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="TRAVEL AND TOURISM"
+        android:layout_marginBottom="34dp"
+        android:layout_above="@+id/btnPolitic"
+        android:layout_centerHorizontal="true" />
+
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_marginTop="71dp"
+        android:text="HOW WELL DO YOU KNOW MZANSI??"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="45dp"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="49dp"
-        android:text="TextView" />
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FIND OUT HERE"
+        android:textSize="15sp"
+        android:layout_above="@+id/btntravel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+
 </RelativeLayout>

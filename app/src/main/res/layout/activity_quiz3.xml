@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#123454"
+    tools:context="com.example.codetribe.quiz.Quiz3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/grp1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                android:id="@+id/txtquiz1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DID JACOB ZUMA PAY BACK THE MONEY?" />
+
+                <RadioButton
+                    android:id="@+id/rbt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No" />
+
+                <RadioButton
+                    android:id="@+id/rbt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes" />
+            </RadioGroup>
+
+
+            <RadioGroup
+                android:id="@+id/grp2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:id="@+id/txtquiz2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HOW MANY DEMOCRATICALLY ELECTED HEADS OF STATE HAS SA HAD?" />
+
+                <RadioButton
+                    android:id="@+id/rbt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3" />
+
+                <RadioButton
+                    android:id="@+id/rbt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4" />
+
+                <RadioButton
+                    android:id="@+id/rbt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5" />
+
+                <RadioButton
+                    android:id="@+id/rbt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/grp3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:id="@+id/txtquiz3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HOW MANY REGISTERED POLITICAL PARTIES ARE ACTIVE IN SA NATIONALLY" />
+
+                <RadioButton
+                    android:id="@+id/rbt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="BETWEEN 50 AND 99" />
+
+                <RadioButton
+                    android:id="@+id/rbt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="BETWEEN 150 AND 199" />
+
+                <RadioButton
+                    android:id="@+id/rbt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="BETWEEN 200 AND 250" />
+
+                <RadioButton
+                    android:id="@+id/rbt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="BETWEEN 100 AND 149" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/grp4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:id="@+id/txtquiz4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HOW MANY SA HAVE BEEN AWARDED THE NOBEL PRIZE?" />
+
+                <RadioButton
+                    android:id="@+id/rbt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5" />
+
+                <RadioButton
+                    android:id="@+id/rbt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="11" />
+
+                <RadioButton
+                    android:id="@+id/rbt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="7" />
+
+                <RadioButton
+                    android:id="@+id/rbt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/grp5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:id="@+id/txtquiz5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HOW MANY RECOGNISED ROYAL FAMILIES ARE THERE IN SA?" />
+
+                <RadioButton
+                    android:id="@+id/rbt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="13" />
+
+                <RadioButton
+                    android:id="@+id/rbt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6" />
+
+                <RadioButton
+                    android:id="@+id/rbt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="11" />
+
+                <RadioButton
+                    android:id="@+id/rbt18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="7" />
+
+                <Button
+                    android:id="@+id/btnScore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SCORE" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
